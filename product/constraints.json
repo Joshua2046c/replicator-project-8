@@ -1,0 +1,82 @@
+{
+  "units": "mm",
+  "disc": {
+    "diameter": 28.9,
+    "thickness": 5.1,
+    "source": "user"
+  },
+  "cavity": {
+    "diameter": 29.18,
+    "height": 5.405,
+    "source": "default"
+  },
+  "body": {
+    "diameter": 39.6,
+    "faceplate_base_thickness": 1.3,
+    "assembled_thickness_with_relief": 8.805,
+    "source": "default",
+    "middle_height": 5.405,
+    "lower_body_height_with_relief": 7.105
+  },
+  "center_holes": {
+    "front": 25,
+    "rear": 25,
+    "source": "user"
+  },
+  "mating": {
+    "kind": "plain horizontal cut",
+    "upper_z": 6.705,
+    "features": "none",
+    "edge_finish": "square",
+    "source": "default"
+  },
+  "rear_tab": {
+    "width": 16,
+    "top_y": 28,
+    "slot_center_y": 24,
+    "slot_width": 10.5,
+    "slot_height": 3,
+    "source": "default",
+    "slot_side_alignment": "X=±5.25 mm, same as inner neck decoration lines",
+    "inner_shoulder_radius_mm": 4,
+    "outer_shoulder_radius_mm": 3,
+    "inner_shoulder_radius_source": "user",
+    "underside_outer_edge_radius_mm": 0.45,
+    "underside_stitch_relief_mm": 0.4,
+    "underside_stitch_z": 3.6,
+    "root_stitch_trim": "regular 1.9 x 0.6 x 0.4 mm relief capsule clipped outside the circular body radius 19.8 mm"
+  },
+  "connection_inventory": [
+    {
+      "id": "disc_fit",
+      "implementation": "free",
+      "resolution": "shared cylindrical pocket; user disc dimensions plus stated clearance"
+    },
+    {
+      "id": "half_joint",
+      "implementation": "free",
+      "resolution": "fused lower floor and sidewall; one flat adhesive upper-lid joint, no catches or locators"
+    },
+    {
+      "id": "lanyard",
+      "implementation": "free",
+      "resolution": "existing upper-side ear split between upper faceplate and core with aligned through-slot"
+    }
+  ],
+  "cavity_radial_inset_mm": {
+    "value": 0.06,
+    "source": "user"
+  },
+  "stitch_relief_mm": {
+    "value": 0.4,
+    "source": "user"
+  },
+  "side_band_thickening_mm": {
+    "value": 0.125,
+    "source": "user"
+  },
+  "side_band_thickening_direction": {
+    "value": "axial height",
+    "source": "default"
+  }
+}

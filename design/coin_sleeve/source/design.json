@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "units": "mm",
+  "coordinateFrame": "replicator-world-z-up",
+  "targets": [
+    {
+      "id": "rear",
+      "label": "rear",
+      "cells": [
+        {
+          "id": "rear",
+          "target": "rear",
+          "order": 0,
+          "path": "design/coin_sleeve/source/parts/rear/000-rear.py",
+          "sha256": "b7c1b0a75fb68d2ef3cf9b9a829811940c4e4a4ae6e89e6d627f91644bf387f4"
+        }
+      ],
+      "dependencies": [
+        "middle"
+      ]
+    },
+    {
+      "id": "middle",
+      "label": "middle",
+      "cells": [
+        {
+          "id": "middle",
+          "target": "middle",
+          "order": 0,
+          "path": "design/coin_sleeve/source/parts/middle/000-middle.py",
+          "sha256": "db2e60ce7fdbafbfe708046cd493fc06deda8be1dbaeaf04e7466360586852e3"
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "objects": [
+    {
+      "id": "rear_shell",
+      "target": "rear",
+      "label": "上纹理面盖",
+      "material": "tpu",
+      "kind": "generated",
+      "shapeHash": "9b8c1197eea1192bea197a42bbb81e45780fcd0a60cc098c8614e197f2682072",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          8.005
+        ],
+        "rotationDeg": [
+          0,
+          180,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    },
+    {
+      "id": "middle_ring",
+      "target": "middle",
+      "label": "一体下壳",
+      "material": "tpu",
+      "kind": "generated",
+      "shapeHash": "06b63c7b790197f8a1b2e02c8b3d0f39bb899c4fb61d370141e8c3e76cbc96bc",
+      "transform": {
+        "positionMm": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ],
+        "rotationOrder": "XYZ",
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "datums": []
+    }
+  ],
+  "assets": [],
+  "fits": [],
+  "updatedAt": "2026-10-21T22:55:32.020Z",
+  "parameters": {
+    "rear": {
+      "rear_hole_diameter": 25,
+      "rear_inner_shoulder_radius": 4
+    },
+    "middle": {
+      "disc_diameter": 28.9,
+      "disc_thickness": 5.1,
+      "body_diameter": 39.6,
+      "cavity_diametral_clearance": 0.4,
+      "cavity_axial_clearance": 0.3,
+      "face_thickness": 1.3,
+      "rear_tab_width": 16,
+      "rear_tab_top_y": 28,
+      "rear_tab_root_y": 10,
+      "rear_tab_corner_radius": 4,
+      "rear_shoulder_radius": 3,
+      "rear_slot_height": 3,
+      "rear_slot_corner_radius": 1.2,
+      "rear_slot_center_y": 24,
+      "outer_edge_radius": 0.45,
+      "surface_pad_radius": 16.4,
+      "stitch_edge_inset": 1.65,
+      "stitch_length": 1.9,
+      "stitch_width": 0.6,
+      "stitch_relief": 0.4,
+      "stitch_pitch": 2.7,
+      "welt_radius": 0.18,
+      "middle_height_reduction": -0.005,
+      "front_hole_diameter": 25,
+      "cavity_radial_inset": 0.06,
+      "surface_relief": 0.2,
+      "stitch_panel_gap": 0.8
+    }
+  }
+}

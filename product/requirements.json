@@ -1,0 +1,139 @@
+{
+  "requirements": {
+    "product_class": {
+      "value": "mechanical",
+      "source": "default"
+    },
+    "disc_diameter_mm": {
+      "value": 28.9,
+      "source": "user"
+    },
+    "disc_thickness_mm": {
+      "value": 5.1,
+      "source": "user"
+    },
+    "center_holes": {
+      "value": {
+        "front_diameter_mm": 25,
+        "rear_diameter_mm": 25,
+        "coaxial": true
+      },
+      "source": "user"
+    },
+    "construction": {
+      "value": "Fuse the lower textured faceplate and middle ring into one manufactured lower body; retain the upper textured faceplate as a separate lid.",
+      "source": "user"
+    },
+    "cord_attachment": {
+      "value": "Lanyard slot on the upper side following uploaded reference; the horizontal cut divides the existing ear between upper faceplate and core.",
+      "source": "default"
+    },
+    "perimeter_detail": {
+      "value": "leather-style perimeter imitation stitching on both outward faces",
+      "source": "user"
+    },
+    "manufacturing_method": {
+      "value": "FDM TPU 95A, leather-brown finish; decorative stitches may be painted ivory",
+      "source": "default"
+    },
+    "body_diameter_mm": {
+      "value": 39.6,
+      "source": "default"
+    },
+    "cavity_mm": {
+      "value": {
+        "diameter": 29.18,
+        "height": 5.405
+      },
+      "source": "default"
+    },
+    "closure": {
+      "value": "One plain horizontal upper lid interface; no snap fits, tongues, grooves, dowels or other locating features.",
+      "source": "user"
+    },
+    "cord_slot_mm": {
+      "value": {
+        "width": 10.5,
+        "height": 3.0,
+        "center_y": 24.0,
+        "tab_width": 16.0,
+        "tab_top_y": 28.0
+      },
+      "source": "default"
+    },
+    "base_board": {
+      "value": "none; purely mechanical protective sleeve",
+      "source": "default"
+    },
+    "conservation_scope": {
+      "value": "daily physical protection; no waterproof or archival conservation rating",
+      "source": "default"
+    },
+    "mating_edge_finish": {
+      "value": "Square flat upper lid joint; no fillet or chamfer on the mating perimeter.",
+      "source": "user"
+    },
+    "sections_mm": {
+      "value": {
+        "lower_floor_base": 1.3,
+        "upper_faceplate_base": 1.3,
+        "middle_height": 5.405,
+        "upper_cut_z": 6.705,
+        "assembled_base_thickness": 8.005,
+        "assembled_total_thickness": 8.805,
+        "surface_pad_relief": 0.2,
+        "stitch_relief": 0.4
+      },
+      "source": "default"
+    },
+    "assembly_method": {
+      "value": "Thin flexible TPU-compatible adhesive on the single upper flat interface; lower floor and sidewall manufactured as one solid.",
+      "source": "default"
+    },
+    "cavity_radial_inset_mm": {
+      "value": 0.06,
+      "source": "user"
+    },
+    "stitch_height_multiplier": {
+      "value": 2,
+      "source": "user"
+    },
+    "stitch_relief_mm": {
+      "value": 0.4,
+      "source": "user"
+    },
+    "slot_side_alignment": {
+      "value": "Marked lanyard slot sides align in X with the inner neck decoration lines immediately below the slot.",
+      "source": "user"
+    },
+    "neck_inner_concave_radius_mm": {
+      "value": 4,
+      "source": "user"
+    },
+    "side_band_thickening_mm": {
+      "value": 0.125,
+      "source": "user"
+    },
+    "side_band_thickening_direction": {
+      "value": "Axial height increase of the marked circumferential middle band, following the vertical green line.",
+      "source": "default"
+    },
+    "ear_underside_edge_finish": {
+      "value": "Round the marked lower-body lanyard ear underside outer perimeter to match the opposite face.",
+      "source": "user"
+    },
+    "ear_underside_stitch_detail": {
+      "value": "Add raised imitation stitches along the marked U-shaped ear underside perimeter, matching opposite-face stitch style, dimensions and path.",
+      "source": "user"
+    },
+    "ear_underside_edge_radius_mm": {
+      "value": 0.45,
+      "source": "default"
+    },
+    "ear_root_clipped_stitch": {
+      "value": "Use the regular stitch matching the one above at the marked ear root; trim off the lower portion occluded by the circular body.",
+      "source": "user"
+    }
+  },
+  "open_questions": []
+}

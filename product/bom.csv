@@ -1,0 +1,5 @@
+﻿id,name,quantity,part_number,description
+lower_body,一体下壳（底纹理面与套圈合一，定制打印）,1,COIN-SLEEVE-LOWER-BODY,TPU 95A，主体外径 39.6 mm，底面基体厚 1.3 mm、中间段高 5.405 mm，含针脚总高 7.105 mm；内腔 Ø29.18 mm、底孔 Ø25 mm，底面与侧壁一体，针脚凸起 0.4 mm。 挂绳耳背面外缘 R0.45 mm，U 形缝线尺寸 1.9 × 0.6 mm、凸高 0.4 mm，与另一面相同。 耳根标记处采用 1.9 × 0.6 mm 常规针脚，凸高 0.4 mm，沿圆形主体边界裁掉被挡住的下部。
+upper_faceplate,上纹理面盖（带挂绳耳，定制打印）,1,COIN-SLEEVE-UPPER-FACEPLATE,TPU 95A，主体 Ø39.6 mm，基体厚 1.3 mm、含针脚厚 1.7 mm，Ø25 mm 圆洞，10.5 × 3 mm 挂绳槽，与下方颈部内装饰线对齐；接面 Z=6.705 mm，针脚凸起 0.4 mm，颈部左右内侧凹圆角为 R4 mm、外侧为 R3 mm。
+adhesive,适配 TPU 的柔性粘接胶（少量）,1,TPU-FLEXIBLE-ADHESIVE,仅用于一体下壳与上面盖之间唯一一道平面接缝；避免胶接触圆饼。
+lanyard_cord,直径 2 mm 软质挂绳，长约 200 mm,1,CORD-2MM-200MM,穿过 10.5 × 3 mm 圆角挂绳槽，不含五金环。

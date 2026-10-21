@@ -1,0 +1,140 @@
+{
+  "version": 2,
+  "artifact_level": "assembly",
+  "deliverable_intent": "printable_part",
+  "summary": "Two-piece sleeve with integrated lower body and upper textured lid; circumferential middle band height 5.405 mm after a 0.125 mm axial increase.",
+  "required_interfaces": [
+    {
+      "id": "disc_fit",
+      "kind": "internal_fit",
+      "description": "28.9 mm diameter, 5.1 mm thick disc in a 29.18 x 5.405 mm cavity; two 25 mm coaxial openings.",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "half_joint",
+      "kind": "internal_fit",
+      "description": "Lower floor and middle sidewall are one solid. Only upper lid joint remains at Z=6.705 mm, flat and square without catches or locating features; adhesive only.",
+      "source": "contract_interface",
+      "required": true
+    },
+    {
+      "id": "lanyard",
+      "kind": "attachment",
+      "description": "Upper-side ear with aligned through-slot 10.5 x 3 mm; slot sides at X=±5.25 mm align with inner neck decoration lines below it. Both marked recessed inner neck shoulder corners are nominal R4 mm; outer shoulder corners are R3 mm. Exposed lower-body ear underside outer perimeter uses R0.45 mm matching opposite-face edge rounding.",
+      "source": "user_requested",
+      "required": true
+    },
+    {
+      "id": "leather_stitches",
+      "kind": "surface_detail",
+      "description": "All imitation stitch capsules on both outward faces raised 0.4 mm above the nominal exterior plane, twice the 0.2 mm prior height; center pads and piping remain at 0.2 mm. Include the lower-body ear underside U-shaped perimeter with 1.9 x 0.6 mm capsules and nominal 2.7 mm pitch, matching the opposite face. The marked ear-root stitch is a regular 1.9 x 0.6 mm capsule raised 0.4 mm, with its lower portion trimmed at the circular body boundary.",
+      "source": "user_requested",
+      "required": true
+    }
+  ],
+  "external_references": [
+    {
+      "id": "leather_reference",
+      "source": "user_requested",
+      "description": "Uploaded brown leather circular tag with lanyard slot and perimeter saddle stitches. Image is visual style reference only, not a dimensional drawing.",
+      "path": "product/references/uploads/20261021T162011469Z-1-image.png"
+    },
+    {
+      "id": "merge_reference",
+      "source": "user_requested",
+      "description": "Green marks identify lower textured faceplate and middle sleeve ring to fuse into one part.",
+      "path": "product/references/uploads/20261021T174428236Z-1-mark-1.png"
+    },
+    {
+      "id": "side_band_height_reference",
+      "source": "user_requested",
+      "description": "Vertical green mark identifies the circumferential side band for 0.125 mm thickening, implemented along height.",
+      "path": "product/references/uploads/20261021T224024859Z-1-mark-1.png"
+    },
+    {
+      "id": "inset_reference",
+      "source": "user_requested",
+      "description": "Green-marked cavity cylinder moves radially inward by 0.06 mm.",
+      "path": "product/references/uploads/20261021T175410065Z-1-mark-1.png"
+    },
+    {
+      "id": "stitch_raise_reference",
+      "source": "user_requested",
+      "description": "All raised stitch capsules on both faces doubled in height.",
+      "path": "product/references/uploads/20261021T175410065Z-2-mark-2.png"
+    },
+    {
+      "id": "slot_alignment_reference",
+      "source": "user_requested",
+      "description": "Pink-marked lanyard slot sides align with inner decoration lines immediately below.",
+      "path": "product/references/uploads/20261021T175410065Z-3-mark-3.png"
+    },
+    {
+      "id": "neck_radius_reference",
+      "source": "user_requested",
+      "description": "Two green circles select left and right inner neck shoulder corners for nominal R4 mm.",
+      "path": "product/references/uploads/20261021T180912945Z-1-mark-1.png"
+    },
+    {
+      "id": "ear_edge_reference",
+      "source": "user_requested",
+      "description": "Blue line selects lower-body ear underside outer perimeter for matching opposite-face rounding.",
+      "path": "product/references/uploads/20261021T224723544Z-1-mark-1.png"
+    },
+    {
+      "id": "ear_stitch_reference",
+      "source": "user_requested",
+      "description": "Pink U-shaped line selects lower-body ear underside for matching raised imitation stitches.",
+      "path": "product/references/uploads/20261021T224723544Z-2-mark-2.png"
+    },
+    {
+      "id": "ear_terminal_stitch_reference",
+      "source": "user_requested",
+      "description": "Purple mark corrects the ear-root stitch: regular size matching the stitch above, clipped at the circular body boundary.",
+      "path": "product/references/uploads/20261021T225437921Z-1-mark-1.png"
+    }
+  ],
+  "assembly_story": {
+    "installation": "Place disc in the integrated lower body, thinly apply TPU-compatible flexible adhesive to the flat upper annular face, align upper lid and lanyard slot, and hold until cured. No mechanical locators.",
+    "maintenance": "Bonded joint is permanent. Do not use solvent, heat or metal tools on the disc. Prototype fit before final bonding.",
+    "user_access": [
+      "front 25 mm central hole",
+      "rear 25 mm central hole",
+      "rear lanyard slot"
+    ]
+  },
+  "cad": {
+    "requirement": "required",
+    "designs": [
+      {
+        "role": "protective_sleeve",
+        "design_id": "coin_sleeve",
+        "description": "Integrated lower textured floor and sleeve sidewall, plus separate textured upper lid.",
+        "delivery_target": "printable_part",
+        "required_formats": [
+          "step"
+        ],
+        "interface_ids": [
+          "disc_fit",
+          "half_joint",
+          "lanyard",
+          "leather_stitches"
+        ],
+        "reference_ids": [
+          "leather_reference",
+          "merge_reference",
+          "side_band_height_reference",
+          "inset_reference",
+          "stitch_raise_reference",
+          "slot_alignment_reference",
+          "neck_radius_reference",
+          "ear_edge_reference",
+          "ear_stitch_reference",
+          "ear_terminal_stitch_reference"
+        ]
+      }
+    ]
+  },
+  "open_questions": []
+}

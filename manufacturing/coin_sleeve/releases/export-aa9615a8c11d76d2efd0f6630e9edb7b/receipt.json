@@ -1,0 +1,166 @@
+{
+  "designId": "coin_sleeve",
+  "revision": "a538f28361e03884007716c3e631a898da065a1ab69a21b7e82c30236330b681",
+  "schemaVersion": 2,
+  "exportId": "export-aa9615a8c11d76d2efd0f6630e9edb7b",
+  "generatedAt": "2026-10-21T22:55:32.020Z",
+  "designSha256": "a5e1db792d5d74f1ddf17f35dfad43426d2481e7f65baceba452c2054d274ddf",
+  "role": "protective_sleeve",
+  "stateHash": "b61aa9c53fcb1ee9c4ecae2361976e817da34e970a68ec0c0027913888dbf399",
+  "stateManifest": {
+    "schemaVersion": 3,
+    "designId": "coin_sleeve",
+    "role": "protective_sleeve",
+    "design": {
+      "revision": "a538f28361e03884007716c3e631a898da065a1ab69a21b7e82c30236330b681",
+      "designSha256": "b103fa17d076f669157251160196f05ac429459c8731c3d905cbbe33e7f9a693",
+      "manifestSha256": "824b5a3615a334811733ad322e220d1b70ad39c1288adbde777c4961eddb6c64",
+      "stepSha256": "406bfaed21ad0f10626380a92ebbc7e6365b37d21f3769c74d5444d6fbeb9f17",
+      "pcbReleases": []
+    },
+    "brief": {
+      "path": "design/coin_sleeve/README.md",
+      "sha256": "f5da6f611a1df74363e3efdedc4badc8055beebdabfa66833e314b0d3d217b81"
+    },
+    "requirement": {
+      "artifactContractPath": "product/contract.json",
+      "artifactContractSha256": "91bdfaf9a7ea297625a73e71e8380efaaf8b0646368033811b49950b7f78cdaf",
+      "designRequirementSha256": "a9d6bbf0767f47b8497c60cc03bb92f37388c7d02adc9738b251ef8b665b2a4f",
+      "inputs": [
+        {
+          "role": "external-reference",
+          "id": "ear_edge_reference",
+          "path": "product/references/uploads/20261021T224723544Z-1-mark-1.png",
+          "sha256": "3dac58a0a7f4d56c5288faca6e64bcb499d9b6b95f7fa6b8246683cc82f8b17e",
+          "sizeBytes": 178369
+        },
+        {
+          "role": "external-reference",
+          "id": "ear_stitch_reference",
+          "path": "product/references/uploads/20261021T224723544Z-2-mark-2.png",
+          "sha256": "a7bc96f8484772560a2b8894c4d466817fd25b0c5a81ab6723d2bb4e0dad19e7",
+          "sizeBytes": 136575
+        },
+        {
+          "role": "external-reference",
+          "id": "ear_terminal_stitch_reference",
+          "path": "product/references/uploads/20261021T225437921Z-1-mark-1.png",
+          "sha256": "c28e74319176ff91fc8fad3ef8fc3fbf46d767bbbe73cab2facfbc364c5c5de5",
+          "sizeBytes": 217838
+        },
+        {
+          "role": "external-reference",
+          "id": "inset_reference",
+          "path": "product/references/uploads/20261021T175410065Z-1-mark-1.png",
+          "sha256": "2585b97c6bec1cd82e39cd7beba0363939bce2924eb442f229d7bb098f334a83",
+          "sizeBytes": 211845
+        },
+        {
+          "role": "external-reference",
+          "id": "leather_reference",
+          "path": "product/references/uploads/20261021T162011469Z-1-image.png",
+          "sha256": "bccc0bcf52c62b04655d094a167d5a81d4fa433bf385b0cef3ee4aba06026d47",
+          "sizeBytes": 229268
+        },
+        {
+          "role": "external-reference",
+          "id": "merge_reference",
+          "path": "product/references/uploads/20261021T174428236Z-1-mark-1.png",
+          "sha256": "97ea295b18b44ed8f66eae3cbea1a35f045a7a9de4f4162c7ec5b7f00c3239d7",
+          "sizeBytes": 199787
+        },
+        {
+          "role": "external-reference",
+          "id": "neck_radius_reference",
+          "path": "product/references/uploads/20261021T180912945Z-1-mark-1.png",
+          "sha256": "ec20b23e3127bb5bc51d7c9f75edff1bdcf3afcf3affa5449af78e2c909b2b23",
+          "sizeBytes": 258586
+        },
+        {
+          "role": "external-reference",
+          "id": "side_band_height_reference",
+          "path": "product/references/uploads/20261021T224024859Z-1-mark-1.png",
+          "sha256": "4db651e3a2d0c045ca75b09ef07c2dfeddc7d26d24135dd06df7692c3659f47f",
+          "sizeBytes": 404537
+        },
+        {
+          "role": "external-reference",
+          "id": "slot_alignment_reference",
+          "path": "product/references/uploads/20261021T175410065Z-3-mark-3.png",
+          "sha256": "0743b8a86df9ebefcd37864ccd7cef370f37fa7da64dd32c019f65de7cc148f1",
+          "sizeBytes": 316768
+        },
+        {
+          "role": "external-reference",
+          "id": "stitch_raise_reference",
+          "path": "product/references/uploads/20261021T175410065Z-2-mark-2.png",
+          "sha256": "492fa2019f3f9ce015497ae7aa41cdd05dd18bb2fa39118c973fc99ea4692e4a",
+          "sizeBytes": 335824
+        }
+      ]
+    },
+    "delivery": {
+      "target": "printable_part",
+      "formats": [
+        "step"
+      ]
+    },
+    "stateHash": "b61aa9c53fcb1ee9c4ecae2361976e817da34e970a68ec0c0027913888dbf399"
+  },
+  "buildArtifacts": {
+    "manifestSha256": "824b5a3615a334811733ad322e220d1b70ad39c1288adbde777c4961eddb6c64",
+    "stepSha256": "406bfaed21ad0f10626380a92ebbc7e6365b37d21f3769c74d5444d6fbeb9f17"
+  },
+  "exportAlgorithm": {
+    "version": 1,
+    "bootstrapSha256": "5dd2a543e9cad32f4b7d6303e41a1ed23bd24acea30c3faacc5d72a98b18ff4f"
+  },
+  "sourceHashes": {
+    "middle/middle": "db2e60ce7fdbafbfe708046cd493fc06deda8be1dbaeaf04e7466360586852e3",
+    "rear/rear": "b7c1b0a75fb68d2ef3cf9b9a829811940c4e4a4ae6e89e6d627f91644bf387f4"
+  },
+  "assetHashes": {},
+  "shapeHashes": {
+    "middle_ring": "06b63c7b790197f8a1b2e02c8b3d0f39bb899c4fb61d370141e8c3e76cbc96bc",
+    "rear_shell": "9b8c1197eea1192bea197a42bbb81e45780fcd0a60cc098c8614e197f2682072"
+  },
+  "runtime": {
+    "manifestHash": "ab96ab4a8cb2db98edb9ee2d6904f4abce711776fb5a1af03a7266313006c5d2",
+    "pythonVersion": "3.12.13",
+    "build123dVersion": "0.10.0",
+    "ocpVersion": "7.8.1.1.post1",
+    "cadpyHash": "cc86bceb91ba7b9668854891400ce9ca3f1d372a59aa992460df9d8ed25b89f5"
+  },
+  "artifacts": [
+    {
+      "path": "manufacturing/coin_sleeve/releases/export-aa9615a8c11d76d2efd0f6630e9edb7b/model.step",
+      "role": "model/step",
+      "sha256": "406bfaed21ad0f10626380a92ebbc7e6365b37d21f3769c74d5444d6fbeb9f17",
+      "sizeBytes": 3438259
+    }
+  ],
+  "interference": {
+    "summary": "No interference across 1 object pairs.",
+    "counts": {
+      "objects": 2,
+      "pairs": 1,
+      "exact": 0,
+      "cached": 1,
+      "interference": 0,
+      "undeclared": 0,
+      "over_budget": 0,
+      "undetermined": 0
+    },
+    "overlaps": []
+  },
+  "authority": {
+    "version": 1,
+    "algorithm": "hmac-sha256",
+    "keyId": "c2e96e427e1c9d32da8f5d4171b87058",
+    "projectId": "7d99a2ff-f752-4dca-a705-44a95ed1f150",
+    "receiptPath": "manufacturing/coin_sleeve/releases/export-aa9615a8c11d76d2efd0f6630e9edb7b/receipt.json",
+    "payloadSha256": "6057b7d4af2527c149b7e0527073239da9b31648fabcf0fe3a67ce9d8fd97b1f",
+    "mac": "b591adb8225a132f7915196e6ad30d3da15684e862ec74ed7e620b7ef54d1e8b"
+  },
+  "status": "handoff"
+}

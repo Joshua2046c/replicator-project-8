@@ -1,0 +1,12 @@
+{
+  "formatVersion": 4,
+  "name": "纪念币保护套",
+  "summary": "一款仿皮革纹理的纪念币（含币盒）的保护套，可容纳直径 28mm，厚度 11mm 的纪念币盒，上方设有挂绳孔",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Miles"
+    }
+  ],
+  "artifacts": "rebuild"
+}
